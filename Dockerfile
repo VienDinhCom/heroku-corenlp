@@ -1,8 +1,6 @@
 FROM java:jre-alpine
 
-RUN apk add --update --no-cache \
-	 unzip \
-	 wget
+RUN apk add --update --no-cache unzip wget
 
 RUN wget http://nlp.stanford.edu/software/stanford-corenlp-4.0.0.zip
 RUN unzip stanford-corenlp-4.0.0.zip && rm stanford-corenlp-4.0.0.zip
