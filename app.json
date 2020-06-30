@@ -1,0 +1,20 @@
+{
+  "name": "Stanford CoreNLP",
+  "description": "Stanford CoreNLP: A Java suite of core NLP tools.",
+  "logo": "https://nlpcraft.apache.org/images/corenlp-logo.gif",
+  "keywords": ["npl"],
+  "success_url": "/",
+  "website": "https://stanfordnlp.github.io/",
+  "repository": "https://github.com/maxvien/corenlp",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "stack": "container",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev"
+    }
+  ]
+}
